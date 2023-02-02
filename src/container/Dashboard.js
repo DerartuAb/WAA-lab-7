@@ -52,7 +52,7 @@ export default function Dashboard() {
                 <>
              <Posts list={postList} handlePost={handlePost} />
              <input value={title} onChange={(e) => setTitle(e.target.value)}></input>
-             <button onClick={titleHandler}>Update</button>)
+             <button onClick={titleHandler}>Update</button>
              </>
              }
 
